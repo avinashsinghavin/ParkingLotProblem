@@ -14,15 +14,10 @@ public class ParkingLot {
             this.age = age;
         }
     }
-    // Available slots list
     ArrayList<Integer> availableSlotList;
-    // Map of Slot, Car
     Map<String, Car> map1;
-    // Map of RegNo, Slot
     Map<String, String> map2;
-    // Map of age, List of RegNo
     Map<String, ArrayList<String>> map3;
-
 
     public void createParkingLot(String lotCount) {
         try {

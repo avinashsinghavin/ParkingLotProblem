@@ -32,7 +32,5 @@ public class ParkingLotProblem {
             default:
                 System.out.println("Invalid input. Usage: java -jar <jar_file_path> <input_file_path>");
         }
-
-
     }
 }
