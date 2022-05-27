@@ -104,9 +104,9 @@ public class ParkingLot {
             ArrayList<String> regNoList = this.map3.get(age);
             for (int i=0; i < regNoList.size(); i++) {
                 if (!(i==regNoList.size() - 1)){
-                    System.out.print(regNoList.get(i) + ",");
+                    System.out.println(regNoList.get(i) + ",");
                 } else {
-                    System.out.print(regNoList.get(i));
+                    System.out.println(regNoList.get(i));
                 }
             }
         } else {
